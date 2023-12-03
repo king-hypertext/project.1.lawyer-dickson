@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+};
+/* Customize accordion height */
+.accordion-item {
+  /* Set a fixed height (for example, 200px) */
+   /* height: 200px; */
+
+  /* Or set a maximum height (for example, 400px) */
+  /* max-height: 400px; */
+
+  /* Or make the height flexible with 'min-height' (for example, 250px) */
+  /* min-height: 250px; */
+}
+
+/* Customize accordion width */
+.accordion {
+  /* Set a fixed width (for example, 400px) */
+   /* height: 100px;  */
+
+  /* Or make the width responsive to its container using 'max-width' */
+  /* max-width: 100%; */
+}
+
+.accordion-button{
+  border-radius: 0%;
+}
+/* Custom CSS to remove borders from accordion buttons */
+
+/* Remove border from the accordion button */
+.accordion-button {
+  border: none;
+}
+
+/* Remove border from the accordion collapse content */
+.accordion-collapse {
+  border: none;
+}
+
+/* Remove border from the accordion header */
+.accordion-header {
+  border: none;
+}
+

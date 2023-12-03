@@ -1,0 +1,28 @@
+.wrapper{
+    width: 100%;
+    max-width: 980px;
+    margin: 8px;
+    background-color: var(--bs-primary-bg-subtle);
+}
+.container-lg.login-form {
+    max-width: 520px !important;
+    /* background-color: ; */
+}
+.form-control.input-field:focus {
+    box-shadow: none !important;
+}
+@media screen and (max-width: 768px) {
+    .wrapper{
+        width: 480px !important;
+    }
+}
+@media screen and (max-width: 480px) {
+    .wrapper{
+        width: 95% !important;
+    }
+}
+.copyright{
+    position: relative;
+    /* bottom: 5%; */
+    /* left: 25%; */
+}
